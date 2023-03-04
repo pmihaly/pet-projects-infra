@@ -4,6 +4,7 @@ commonLabels:
 components:
   - ../../components/crossplane
   - ../../components/argocd
+  - ../../components/ingress-nginx
 
 resources:
   - appofapps.app.yaml
