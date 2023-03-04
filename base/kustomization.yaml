@@ -1,2 +1,2 @@
 resources:
-  - basic.s3.yaml
+  - basic.bucket.yaml

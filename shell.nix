@@ -6,10 +6,11 @@ pkgs.mkShell {
     with pkgs; [
       kube3d
       kubectl
+      kubectx
       k9s
       jq
       jiq
       kubernetes-helm
-      awscli2
+      google-cloud-sdk
     ];
 }
