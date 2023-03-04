@@ -1,2 +1,3 @@
 .direnv
 **/charts
+components/crossplane/aws-credentials.txt

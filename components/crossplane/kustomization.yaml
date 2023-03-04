@@ -2,6 +2,13 @@ kind: Component
 
 resources:
   - namespace.yaml
+  - aws.provider.yaml
+  - aws.providerconfig.yaml
+
+secretGenerator:
+- name: aws-secret
+  files:
+  - aws-credentials.txt
 
 helmCharts:
   - name: crossplane
