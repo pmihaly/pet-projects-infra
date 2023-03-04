@@ -3,6 +3,7 @@ commonLabels:
 
 components:
   - ../../components/crossplane
+  - ../../components/argocd
 
 bases:
 - ../../base
