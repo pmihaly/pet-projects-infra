@@ -5,6 +5,9 @@ resources:
   - aws.provider.yaml
   - aws.providerconfig.yaml
 
+generatorOptions:
+ disableNameSuffixHash: true
+
 secretGenerator:
 - name: aws-secret
   files:

@@ -4,5 +4,5 @@ commonLabels:
 components:
   - ../../components/crossplane
 
-resources:
+bases:
 - ../../base
