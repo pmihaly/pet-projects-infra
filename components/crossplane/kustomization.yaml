@@ -1,0 +1,11 @@
+kind: Component
+
+resources:
+  - namespace.yaml
+
+helmCharts:
+  - name: crossplane
+    repo: https://charts.crossplane.io/stable
+    namespace: crossplane-system
+    includeCRDs: true
+

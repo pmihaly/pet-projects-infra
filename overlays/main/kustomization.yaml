@@ -1,0 +1,8 @@
+commonLabels:
+  variant: main
+
+components:
+  - ../../components/crossplane
+
+resources:
+- ../../base
