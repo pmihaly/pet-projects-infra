@@ -19,6 +19,7 @@ pkgs.mkShell {
       jiq
       kubernetes-helm
       google-cloud
+      argocd
     ];
 }
 

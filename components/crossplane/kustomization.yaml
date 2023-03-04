@@ -1,9 +1,10 @@
 kind: Component
+namespace: crossplane-system
 
 resources:
-  - namespace.yaml
   - gcp.provider.yaml
   - gcp.providerconfig.yaml
+  - crossplane.ns.yaml
 
 generatorOptions:
  disableNameSuffixHash: true

@@ -1,5 +1,14 @@
 kind: Component
 namespace: argocd
 
+generatorOptions:
+ disableNameSuffixHash: true
+
+configMapGenerator:
+  - name: argocd-cm
+    behavior: replace
+    literals:
+      - kustomize.buildOptions=--enable-helm
+
 resources:
   - https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml

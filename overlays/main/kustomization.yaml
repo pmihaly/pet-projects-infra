@@ -5,5 +5,8 @@ components:
   - ../../components/crossplane
   - ../../components/argocd
 
+resources:
+  - appofapps.app.yaml
+
 bases:
 - ../../base
