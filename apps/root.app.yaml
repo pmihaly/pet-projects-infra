@@ -1,20 +1,17 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: appofapps
+  name: root
   namespace: argocd
 spec:
   project: default
   source:
     repoURL: https://github.com/pmihaly/personal-infra.git
     targetRevision: main
-    path: overlays/main
-    directory:
-      recurse: true
+    path: apps
   destination:
     server: https://kubernetes.default.svc
     namespace: default
   syncPolicy:
     automated:
-      prune: true
       selfHeal: true
