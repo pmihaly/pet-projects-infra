@@ -21,4 +21,19 @@ spec:
           port: 80
           scheme: h2c
   tls:
-    certResolver: default
+    secretName: argocd.pappmihaly.com
+
+---
+
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: argocd.pappmihaly.com
+  namespace: traefik
+spec:
+  dnsNames:
+    - argocd.pappmihaly.com
+  secretName: argocd.pappmihaly.com
+  issuerRef:
+    kind: Issuer
+    name: letsencrypt-issuer

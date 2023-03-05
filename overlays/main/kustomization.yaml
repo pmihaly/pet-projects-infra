@@ -2,6 +2,7 @@ components:
   - ../../components/crossplane
   - ../../components/argocd
   - ../../components/traefik
+  - ../../components/cert-manager
 
 bases:
 - ../../base

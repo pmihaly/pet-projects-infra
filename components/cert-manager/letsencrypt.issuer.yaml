@@ -1,0 +1,15 @@
+apiVersion: cert-manager.io/v1
+kind: Issuer
+metadata:
+ name: letsencrypt-issuer
+ namespace: traefik
+spec:
+ acme:
+   email: gejike4168@pubpng.com # temp email
+   server: https://acme-v02.api.letsencrypt.org/directory
+   privateKeySecretRef:
+     name: letsencrypt-account-key
+   solvers:
+     - http01:
+         ingress:
+           class: traefik
