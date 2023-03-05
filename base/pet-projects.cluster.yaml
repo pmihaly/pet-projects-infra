@@ -7,7 +7,7 @@ metadata:
 spec:
   forProvider:
     location: europe-central2-a
-    initialNodeCount: 1
+    initialNodeCount: 2
 
 ---
 
@@ -27,4 +27,4 @@ spec:
         oauthScopes:
           - https://www.googleapis.com/auth/cloud-platform
         preemptible: true
-    nodeCount: 1
+    nodeCount: 2
