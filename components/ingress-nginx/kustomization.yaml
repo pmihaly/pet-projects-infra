@@ -7,4 +7,4 @@ helmCharts:
   - name: ingress-nginx
     repo: https://kubernetes.github.io/ingress-nginx
     namespace: ingress-nginx
-    releaseName: ''
+    releaseName: ingress-nginx
