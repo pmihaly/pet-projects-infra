@@ -27,4 +27,5 @@ spec:
         oauthScopes:
           - https://www.googleapis.com/auth/cloud-platform
         preemptible: true
-    nodeCount: 2
+    autoscaling:
+      - totalMaxNodeCount: 3
