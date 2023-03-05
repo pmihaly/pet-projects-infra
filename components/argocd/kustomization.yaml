@@ -1,5 +1,4 @@
 kind: Component
-namespace: argocd
 
 generatorOptions:
  disableNameSuffixHash: true
@@ -17,4 +16,3 @@ configMapGenerator:
 resources:
   - https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
   - ingress.yaml
-  - argocd.ns.yaml
