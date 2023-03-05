@@ -9,12 +9,6 @@ resources:
 generatorOptions:
  disableNameSuffixHash: true
 
-secretGenerator:
-- name: gcp-secret
-  namespace: crossplane-system
-  files:
-  - gcp-credentials.json
-
 helmCharts:
   - name: crossplane
     repo: https://charts.crossplane.io/stable
