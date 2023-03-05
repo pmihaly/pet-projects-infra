@@ -1,2 +1,3 @@
 resources:
   - pet-projects.cluster.yaml
+  - basic.bucket.yaml
