@@ -1,4 +1,5 @@
 kind: Component
+namespace: argocd
 
 generatorOptions:
  disableNameSuffixHash: true
