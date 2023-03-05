@@ -8,3 +8,5 @@ helmCharts:
     repo: https://kubernetes.github.io/ingress-nginx
     namespace: ingress-nginx
     releaseName: ingress-nginx
+    valuesInline:
+      controller.admissionWebhooks.enabled: false
