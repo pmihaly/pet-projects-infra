@@ -1,0 +1,12 @@
+kind: Component
+
+helmCharts:
+  - name: traefik
+    repo: https://traefik.github.io/charts
+    namespace: traefik
+    includeCRDs: true
+    releaseName: traefik
+
+resources:
+  - traefik.ns.yaml
+

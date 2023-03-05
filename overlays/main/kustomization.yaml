@@ -4,7 +4,7 @@ commonLabels:
 components:
   - ../../components/crossplane
   - ../../components/argocd
-  - ../../components/ingress-nginx
+  - ../../components/traefik
 
 bases:
 - ../../base
