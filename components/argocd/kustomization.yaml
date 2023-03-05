@@ -9,6 +9,10 @@ configMapGenerator:
     behavior: replace
     literals:
       - kustomize.buildOptions=--enable-helm
+  - name: argocd-cmd-params-cm
+    behavior: replace
+    literals:
+      - server.insecure="true"
 
 resources:
   - https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
