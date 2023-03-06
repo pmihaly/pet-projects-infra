@@ -6,6 +6,7 @@ helmCharts:
     namespace: traefik
     includeCRDs: true
     releaseName: traefik
+    version: 21.1.0
 
 resources:
   - traefik.ns.yaml
