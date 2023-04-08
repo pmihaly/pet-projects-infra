@@ -20,6 +20,9 @@ pkgs.mkShell {
       kubernetes-helm
       google-cloud
       argocd
+      yq-go
+      kubeseal
+      scrub
     ];
 }
 

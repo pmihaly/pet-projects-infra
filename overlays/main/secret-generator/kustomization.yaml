@@ -1,0 +1,12 @@
+generatorOptions:
+ disableNameSuffixHash: true
+
+secretGenerator:
+  - name: gcp-secret
+    namespace: crossplane
+    files:
+      - gcp-credentials.json
+  - name: asdf
+    literals:
+      - AAAA=bbbb
+      - CCCC=dddd

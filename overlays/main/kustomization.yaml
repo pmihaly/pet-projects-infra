@@ -3,6 +3,10 @@ components:
   - ../../components/argocd
   - ../../components/traefik
   - ../../components/cert-manager
+  - ../../components/sealed-secrets
 
 bases:
 - ../../base
+
+resources:
+  - secrets.sealed-secret.yaml

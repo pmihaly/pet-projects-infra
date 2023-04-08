@@ -1,3 +1,5 @@
 .direnv
 **/charts
 **/gcp-credentials.json
+**/secret-sealing.yaml
+**/secret-generator
