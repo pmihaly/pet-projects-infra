@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/pmihaly/personal-infra.git
+    repoURL: https://github.com/pmihaly/pet-projects-infra.git
     targetRevision: main
     path: apps
   destination:

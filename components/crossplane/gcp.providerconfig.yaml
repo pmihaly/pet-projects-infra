@@ -3,7 +3,7 @@ kind: ProviderConfig
 metadata:
   name: default
 spec:
-  projectID: personal-infra-379610
+  projectID: pet-projects-390810
   credentials:
     source: Secret
     secretRef:

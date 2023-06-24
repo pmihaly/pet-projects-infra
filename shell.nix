@@ -1,7 +1,7 @@
 {pkgs ? import <nixpkgs> {} }:
 
 pkgs.mkShell {
-  name = "personal-infra-env";
+  name = "pet-projects-infra-env";
   buildInputs =
   let
     gke-auth-plugin =

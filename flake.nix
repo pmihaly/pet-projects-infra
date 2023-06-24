@@ -1,5 +1,5 @@
 {
-  description = "personal infra";
+  description = "pet projects infra";
 
   inputs.flake-utils.url = "github:numtide/flake-utils";
 
