@@ -3,10 +3,6 @@ generatorOptions:
 
 secretGenerator:
   - name: gcp-secret
-    namespace: crossplane
+    namespace: crossplane-system
     files:
       - gcp-credentials.json
-  - name: asdf
-    literals:
-      - AAAA=bbbb
-      - CCCC=dddd
